@@ -11,4 +11,4 @@
 # I learned how to better manage both my own time, as well as the time of others.
 # I also learned how to coordinate multiple people and use their strengths to their fullest.
 
-# The resulting game was intuitive to play, and reinforced what we've learned about manipulating objects and the value within said objects.
+# The resulting game was intuitive to play, and reinforced what we've learned about manipulating objects and the values within said objects.
