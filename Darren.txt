@@ -1,0 +1,252 @@
+                                                                     
+                                                                     
+                                                                     
+                                             
+import java.util.Random;
+
+public class AIArmy
+{
+	// Counters for Unit types, integers for funds and buffers, and for the defense and attack level of Unit upgrades
+	private int funds = 0, wCounter = 0, aCounter = 0, mCounter = 0, buffer = 0, wALevel = 0, wDLevel = 0, mALevel = 0, mDLevel = 0, aALevel = 0, aDLevel = 0;
+	private UnitStorage units = new UnitStorage();
+	private int[][] upgrades = new int[3][5];				// ***I need to see the upgrade prices!
+	private Random gen = new Random();						// Randomizer for the class
+
+	public AIArmy()
+	{
+		funds = 0; // ***Instantiate funds to their default value.
+		units.addUnit(new Warrior(wALevel, wDLevel, false)); // ***Put in Warriors, Mages, and Archers, and update counters.
+
+		for (int r = 0; r < upgrades.length; r++)
+		{
+			for (int c = 0; c < upgrades[r].length; c++)
+			{
+				upgrades[r][c] = 0;		// ***Instantiate upgrades array to hold all prices.
+			}
+		}
+	}
+
+	// Controls the AI's actions
+	public void AIManagement()
+	{
+		buffer = funds / 4;		// Buffer value for purchasing
+
+		if (upgradesPurchased())
+		{
+			buffer = 0;		// Set buffer to 0 all upgrades have been purchased
+		}
+
+		financeManager();
+		battleManager();
+	}
+
+	private boolean upgradesPurchased()
+	{
+		// Starts at most expensive upgrades, which are least likely to be purchased, so the loop 			// runs as little as possible
+
+		for (int c = upgrades[0].length - 1; c >= 0; c--)
+		{
+			for (int r = 0; r < upgrades.length; r++)
+			{
+				if (upgrades[r][c] != 0)	// Upgrade price will be 0 if purchased
+				{
+					return false;
+				}
+			}
+		}
+
+		return true;	// Only reaches this line if all upgrades are purchased, or equal to 0
+	}
+
+	private void financeManager()
+	{
+		int dayNumber = 0;								// ***Get day number!
+		int acceptableAmount = (dayNumber / 3) + 10;	// Acceptable amount of Units for each type
+
+		if (acceptableAmount > 50)
+		{
+			acceptableAmount = 50;		// Max value of 50
+		}
+
+		// Purchase Warriors, Archers, and Mages if there aren't enough!
+		if (wCounter < acceptableAmount)
+		{
+			purchaseUnit(new Warrior(wALevel, wDLevel, false));
+		}
+
+		if (aCounter < acceptableAmount)
+		{
+			purchaseUnit(new Archer(aALevel, aDLevel, false));
+		}
+
+		if (mCounter < acceptableAmount)
+		{
+			purchaseUnit(new Mage(mALevel, mDLevel, false));
+		}
+
+		// If there are still more funds to use
+		if (funds > buffer)
+		{
+			// ***City upgrades must still be done!
+			for (int c = 0; c < upgrades[0].length; c++)
+			{
+				boolean done = false;
+
+				for (int r = 0; r < upgrades.length; r++)
+				{
+					// If upgrade is not purchased
+					if (upgrades[r][c] != 0)
+					{
+						int usableFunds = funds - buffer;
+
+						// If upgrade is an affordable price
+						if (upgrades[r][c] < usableFunds)
+						{
+							// ***Purchase upgrade
+							upgrades[r][c] = 0;
+						}
+						else
+						{
+							// No more affordable upgrades
+							done = true;
+							break;
+						}
+					}
+				}
+
+				if (done)
+				{
+					break;
+				}
+			}
+		}
+	}
+
+	private void purchaseUnit(Unit u)
+	{
+		if (funds > buffer)
+		{
+			int unitPrice = 1;					// ***Get Unit price
+			int usableFunds = funds - buffer;
+
+			if (u instanceof Warrior)
+			{
+				unitPrice = 1;			// ***Warrior Unit Price
+			}
+			else if (u instanceof Archer)
+			{
+				unitPrice = 1;			// ***Archer Unit Price
+			}
+			else if (u instanceof Mage)
+			{
+				unitPrice = 1;			// ***Mage Unit Price
+			}
+
+			int maxUnits = usableFunds / unitPrice;
+			int unitsPurchased = gen.nextInt(maxUnits) + 1;		// Randomize Units purchased
+			funds = funds - (unitPrice * unitsPurchased);		// Takes away from the funds the price of all Units
+
+			for (int i = 1; i <= unitsPurchased; i++)
+			{
+				// If stats will be randomized, these if-statements must be here
+				// If not, create a Unit, instantiate it in the above if-statement, and add that at each iteration
+				if (u instanceof Warrior)
+				{
+					units.addUnit(new Warrior(wALevel, wDLevel, false));
+					wCounter++;
+				}
+				else if (u instanceof Archer)
+				{
+					units.addUnit(new Archer(aALevel, aDLevel, false));
+					aCounter++;
+				}
+				else if (u instanceof Mage)
+				{
+					units.addUnit(new Mage(mALevel, mDLevel, false));
+					mCounter++;
+				}
+			}
+		}
+	}
+
+	private void battleManager()
+	{
+		// ***Must find way of easily locating AI cities!
+
+		int numUnits = 0;	// ***Must find way to receive number of Units at a given panel!
+
+		if (numUnits > 20)
+		{
+			split();		// ***Written by Matthew Ramos.
+			move();
+		}
+
+	//	Questions must be cleared before completing this method.
+	}
+
+	private void split()
+	{
+		 // ***Written by Matthew Ramos.
+	}
+
+	// ***ColorPanel must be seen to complete this!
+	private void move()
+	{
+		int r = 0;	// ***Current row of the AI army; how is this selected?
+		int c = 0; 	// ***Current column of the AI army; how is this selected?
+		boolean selected = false;
+
+		// ***Access coordinates of nearest city.
+		// ***How is moving done by ColorPanels?
+
+	/*	if (the row of the player city is the same as the AI army)
+		{
+			if (the column of the player city is less than that of the AI army)
+			{
+				Move left (c - 1).
+			}
+			else if (the column of the player city is greater than that of the AI army)
+			{
+				Move right (c + 1).
+			}
+		}
+		else if (the column of the player city is the same as the AI army
+		{
+			if (the row of the player city is less than that of the AI army)
+			{
+				Move up (r - 1).
+			}
+			else if (the row of the player city is greater than that of the AI army)
+			{
+				Move down (r + 1).
+			}
+		}
+		else
+		{
+			int num = gen.nextInt(1);
+
+			if (num == 0)
+			{
+				if (the column of the player city is less than that of the AI army)
+				{
+					Move left (c - 1).
+				}
+				else if (the column of the player city is greater than that of the AI army)
+				{
+					Move right (c + 1).
+				}
+			}
+			else
+			{
+				if (the row of the player city is less than that of the AI army)
+				{
+					Move up (r - 1).
+				}
+				else if (the row of the player city is greater than that of the AI army)
+				{
+					Move down (r + 1).
+				}
+			}
+		} */
+	}
+}

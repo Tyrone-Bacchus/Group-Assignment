@@ -1,0 +1,14 @@
+E:\JCreator\MyProjects\ISD\Code\AIArmy.java
+E:\JCreator\MyProjects\ISD\Code\Archer.java
+E:\JCreator\MyProjects\ISD\Code\ColorPanel.java
+E:\JCreator\MyProjects\ISD\Code\GameGUI.java
+E:\JCreator\MyProjects\ISD\Code\InstructionGUI.java
+E:\JCreator\MyProjects\ISD\Code\Mage.java
+E:\JCreator\MyProjects\ISD\Code\Resources.java
+E:\JCreator\MyProjects\ISD\Code\StatisticsGUI.java
+E:\JCreator\MyProjects\ISD\Code\StatisticsRecords.java
+E:\JCreator\MyProjects\ISD\Code\Store.java
+E:\JCreator\MyProjects\ISD\Code\Unit.java
+E:\JCreator\MyProjects\ISD\Code\UnitStorage.java
+E:\JCreator\MyProjects\ISD\Code\UpgradesGUI.java
+E:\JCreator\MyProjects\ISD\Code\Warrior.java

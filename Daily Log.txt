@@ -1,0 +1,107 @@
+	2011/11/08 11:00 (0.25 hours) -
+Discussed the title of company with the president, Mr. Charalampopoulos, and fellow vice-president, Mr. Menezes.Through much consideration on prospective goals, a decision of the name was made. With simplicity, the mark of the company is "Integrated Software Development," or ISD for short. This symbolizes the companies passion to create programs that will benefit and be of use to others.
+
+	2011/11/09 11:00 (0.25 hours) -
+With the decision of a direction, Mr. Charalampopoulos and Mr. Menezes aided myself in the determination of a portraying logo. Although we are all incapable of designing (or at least something market worthy), we as leaders did the next best thing. Both Mr. Dela Cruz and Mr. Melanson was chosen to compete for a design, with the latter being accepted on account of puntuality and sheer impressiveness.
+
+	2011/11/10 11:00 (0.5 hours) -
+The next frontier to decide on was the problem that needed to be solved. Some suggestions were made, including a stock market tracker and a weather information intrepeter. Due to some indecisiveness, discussions between Mr. Charalampopoulos Mr. Menezes and myself continued past the standard work hours, and came to the conclusion that this is a difficult stage to get through. For insuring that quality comes first, the decision was postponed until more ideas could be collected.
+
+	2011/11/15 11:00 (0.5 hours) -
+Having more time to think about a problem, the fellow presidency and myself convened with a handful of workers to hear their input. These employees include the honourably mentioned Mr. Ramos and Mr. Pereira. The final conclusion of the top three is now solely in the hands of Mr. Charalampopoulos, with the suggestive input from Mr. Menezes and myself.
+
+	2011/11/16 15:00 (1.5 hours) -
+Pressure is building among the leaders, with the inclusion of myself, as a decision must be made regarding the programming direction. Staying long after which is necessary, Mr. Charalampopoulos met with me to discuss the most appropiate problems. Mr. Menezes and Mr. Pereira also participated in the debate, for the timespan that was available for them. With the end to all discussions, the final proposals were made as the following:	1) A flight simulator,	2) An accounting registry, and				3) A strategic/adventure game. These proposals are named in reverse order of their priority values.
+
+	2011/11/17 11:00 (0.25 hours) -
+Details were submitted and information was verified among leaders. Mr. Menezes, Mr. Charalampopoulos, and a selected few individuals, approached my work area to confirm minor details concerning the approach that were taken on the chosen project, the strategy game.
+
+	2011/11/19 16:00 (0.5 hours) -
+Attempted to create a basic UML chart with the limited understanding that I possess regarding the minor details of the project. I plan to approach Mr. Charalampopoulos and Mr. Menezes regarding the finalities, and may include members such as Mr. Pereira and Mr. Melanson given their track record for participation.
+
+	2011/11/21 11:00 (0.5 hours), 3:00 (0.5 hours) -
+Further discussion regarding the game components happened. Mr. Charalampopoulos, Mr. Menezes, Mr. Bergeron, Mr. Melanson, and Mr. Ramos collected by my work quarters to accomplish this. Later, more indepth analysis and arguments were made with the president, Mr. Melanson, and myself. At this time, I was also given istruction to start brainstorming tactics on breaking the entire project into simpler subtasks for my sector to handle.
+
+	2011/11/23 10:00 (1.5 hours), 5:00 (3.0 hours) -
+Due to the alloted time, I was allowed to discuss the basic layout of the game with my sector. A bit of confusion arose from issues that were debated, so I justified the idea of continuing activity after work hours with the interaction of Facebook. This was mainly for the problems of how to generate the random map. Other aspects, such as the introduction in the program and the cells needed for the map, were assigned to their appropiate worker. After work hours, I created a post in which the selected few of my sector would give their respectable pseudo code for the map creation, with my supervision and criticism on each segment's strengths and weaknesses.
+
+	2011/11/24 11:00 (0.5 hours), 5:00 (3.0 hours) -
+Some joint discussion between the two sectors occurred during the above mentioned 30min time span. During this time, Mr. Charalampopoulos approached me to finalize some concerns regarding the approach of the map, and to check if I could personally manage my subordinates. After work hours, I continued the same task as the previous day, with there being more emphasis on pre-tablechecking rather than creation. I have further spent my time aiding Mr. Borja in research how to transition images for the prologue.
+
+	2011/11/25 11:00 (0.25 hours) -
+During this timeframe, I spent some effort in help Mr. Ramos in revision of the code that he had presented.
+
+	2011/11/26 4:30 (3.5 hours) -
+Due to my responsibilities as being the management of coding, I had started constructing the project with the code Mr. Ramos had provided previously. Since connections were lost, and he had been unable to send me the revised draft, I had to work with the bugged version that existed on Facebook.
+
+	2011/11/27 2:00 (2.5 hours) -
+In respect from yesterday's work, a huge leap in progress has been made as I now able to generate a realistic version of the map with the pictures contributed by the cooperation of Mr. Dela Cruz and Mr. Melanson alike. Since they had made quite a variety of images, this work day was slightly more extensive with the extra code segments that had the need to be added.
+
+	2011/11/28 4:00 (0.5 hours) -
+Since problems occured when testing the code at work, I made minor modifications and hoped that it will result in a success when I return the next day.
+
+	2011/11/30 11:00 (0.25 hours) -
+A group discussion regarding the information teaming supported by the president occurred. As key decisions were being made, I was called upon to share my own personal perspective on how the game should operate, as some of their proposed ideas seem to pose some difficulty to what I had in mind for the implementation.
+
+	2011/12/01 11:00 (0.25 hours) -
+Approached various members of the coding sector to evaluate the progress they had made. Mr. Borja had complete the introductory window, awaiting the GIF's from Mr. Ong. Mr Pereira, Mr. Ramos, and myself discussed the approaches on how to create the army layout, but the idea of a hierachical class system seems to be the most strongest in our scenario.
+
+	2011/12/02 3:00 (1.0 hours) -
+A company meeting occured in which all the leaders debriefed the employees on where we currently stand on. Since some coders working for me had less roles to play out, I decided to assign them some of the future ones so that they are prepared in knowing what will come.
+
+	2011/12/03 12:00 (4.0 hours) -
+Half this time was used to incorporate the map segment of the code along with the rest of the Game GUI. The other half was try to understand why certain methods weren't working.
+
+	2011/12/04 1:00 (1.0 hour, 0.5 hours) -
+Worked on the progress reports. Took minimum time due to the fact I had already an idea of the tasks that were being accomplished in my sector. The second time span recognizes the bits of effort I took to gather roles for my workers and post the information on FaceBook.
+
+	2011/12/05 11:00 (0.5 hours) -
+At approximately this time frame, I personally visited my group members to assign them roles, since I know some of them have lost contact with the social network that I use to organise them.
+
+	2011/12/08 5:00 (1.0 hours) -
+Reassigned all my group members jobs, including Mr. Bergeron who had just replaced Mr. Borja.
+
+	2011/12/11 16:30 (0.5 hours) -
+Read a proposal for the AI layout from Mr. Pereira. Will hold meeting tomorrow to discuss why other members refuse to respond to my orders.
+
+	2011/12/12 3:00 (0.5 hours) -
+Meeting conference with all of coding department. I explain how the approach of the game was going to be, and answered any questions and feedback of my team. Formal introduced newest member to the team.
+
+	2011/12/13 17:30 (2.0 hours) -
+Started my evaluation form. Will continue tomorrow as I have to clarify performance of Mr. Bergeron with Mr. Menezes. Furthermore, this extra time will be used to further examine department to make firm decisions.
+
+	2011/12/15 10:30 (1.0 hours) -
+For the duration of the time at the department, I organized the member to the specific tasks that must be dealt with. Also, I approached and was approached by the workers to clarify any ambiguity concerning the general and specifics of each task pertaining to the game as a whole.
+
+	2011/12/16 11:00 (0.5 hours) -
+Convened with many individuals concerning the goals that must be accomplished, along with tasks that must be undergone.
+
+	2011/12/19 10:30 (1.0 hours) -
+Spent whole time span aiding the various team members of the coding department with their sense of direction of the current production.
+
+	2011/12/21 17:00 (5.0 hours) -
+To keep up with the demand of coding progress given by Mr. Charalampoupolos, I merged all existing code segments, including the listeners that were recently updated by Mr. M. Ong, Mr. A. Fusciardi, Mr. M. Ramos, and Mr. D. Pereira. Further contribution includes adding my own code along with making slight modifications of the existing ones.
+
+	2011/01/03 10:30 (10.0 hours) -
+Spent whole day modifying the remaining interfaces, along with activating the listeners that were to allow the user to act. Yesterday, I had quickly assigned smaller tasks to the coding team; some were to finish the purchasing coding, while Mr. P. Ryan helped with the second tile chooser method.
+
+	2011/01/04 11:30 (8.0 hours) -
+Continued on previous days' work. Also examined Mr. D. Pereira's current proposal for the AI simulation, along with minor changes that must be made.
+
+	2011/01/08 12:00 (0.5 hours) -
+Received, modified, and implemented the code for the instructions interface to be accessed by the main screen.
+
+	2011/01/09 8:30 (3.5 hours) -
+Having finished the movement of the player armies, I now proceed to displaying the current armies as the appear in the tiles and naming the cities.
+
+	2011/01/10 5:00 (1.0 hours) -
+Spent this time fixing any bugs created by yesterday's work, along with improving the game graphically by changing the picture of certain tiles.
+
+	2011/01/15 12:00 (5.0 hours) -
+Around the time of the beta, I gave roles to all employees concerning the alpa production. During today's alotted time, I worked on programming upgrades for the cities.
+
+	2011/01/16 22:30 (2.0 hours) -
+The program is nearing completion, but during this time period, I had to incorporate all loose code segments, along with minor testing and modifications.
+
+	2011/01/17 22:30 (1.0 hours) -
+Continued on the last minute touch-ups for the program.

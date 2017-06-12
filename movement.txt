@@ -1,0 +1,21 @@
+/*while (unitAmount < 0 || unitAmount > totalUnits)	//needed for the split, not the move
+                {
+                    try
+                    {
+                        String answer = JOptionPane.showInputDialog("How many units to move?", "1");
+
+                        if (answer != null)
+                        {
+                            unitAmount = Integer.parseInt(answer);
+                        }
+                        else
+                        {
+                            return;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        JOptionPane.showMessageDialog(GameGUI.this, "Please enter a valid integer.",
+                                                      "Invalid Input", JOptionPane.ERROR_MESSAGE);
+                    }
+                }*/

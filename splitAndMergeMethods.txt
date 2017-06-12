@@ -1,0 +1,83 @@
+private class /*Button for actions*/ implements ActionListener
+{
+	public void actionPerformed(ActionEvent e)
+	{
+		if (/*split is selected*/)
+		{
+			try
+			{	
+				int splitUnits = JOptionPane.showInputDialog("How many of the " 
+						+ queue.length() + " units do you want to split?");
+	
+				int direction = JOptionPane.showInputDialog("Which direction to split (up = 1, right = 2, down = 3, left = 4)?");
+		
+				if (splitUnits < queue.length())
+				{
+					if ((d == 1 || d == 2) || (d == 3 || d ==4))
+					{
+						queue.split(splitUnits, direction);
+					}
+					else
+					{
+						//throw new Exception
+					}
+				}
+				else
+				{
+					//throw new Exception
+				}
+	
+	
+			}
+			catch (Exception e)
+			{
+				JOptionPane.showMessageDialog(null, "Attempt failed");
+			}
+		}
+		else if (/*merge is selected*/)
+		{
+			queue.merge(queue1, queue2);
+		}
+
+	}
+}
+
+public void split(int units, int place)
+{
+	Queue<Units> moved = new Queue<Units>();
+
+	for (int i = 0;	i <= units; i++)
+	{
+		moved = queue.remove(i);
+	}
+	
+	
+	move(moved, place);
+	//move method should have been defined by someone else...
+	//what it does is move the queue to that position/direction...
+}
+
+public void merge(Queue ori, Queue added)
+{
+	while (!added.isEmpty())
+	{
+		ori.add(added.remove(0));
+	}
+}
+
+public void move(Queue units, int d)
+{
+	//get current position...
+	if (d == 1)
+		//move queue up
+	else if (d == 2)
+		//move queue right
+	else if (d == 3)
+		//move queue down
+	else if (d == 4)
+		//move queue left
+	else
+		//throw new Exception? or do nothing
+}
+
+		
